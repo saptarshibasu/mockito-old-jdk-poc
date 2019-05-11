@@ -1,5 +1,6 @@
 # Mockito 2.x tests fail when run on JDK 1.8.0_05
 
+```
 [INFO] Running com.sapbasu.mockitopoc.TestClass
 [ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.62 s <<< FAILURE! - in com.sapbasu.mockitopoc.TestClass
 [ERROR] com.sapbasu.mockitopoc.TestClass  Time elapsed: 0.62 s  <<< ERROR!
@@ -40,3 +41,4 @@ Mockito cannot mock this...
 [INFO] Finished at: 2019-05-11T23:27:31+05:30
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test) on project mockito-poc: There are test failures.
+```
